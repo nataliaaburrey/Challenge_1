@@ -112,7 +112,6 @@ Perform financial calculations using functions.
 
 def calculate_present_value (future_value, remaining_months,annual_discount_rate):
      present_value = future_value /(1+annual_discount_rate/12)** remaining_months
-     print ("PV, present_value")
      return present_value
 
 
@@ -224,4 +223,4 @@ output_path = Path("inexpensive_loans.csv")
 
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
-# YOUR CODE HERE!# Challenge_1
+# YOUR CODE HERE!
